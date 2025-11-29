@@ -61,7 +61,7 @@ input {
 }
 
 .button-area button {
-    border: 1px solid #ddd;
+    border: 1px solid ;
     border-radius: 5px;
     border-color: #555;
     width: 25%;
@@ -101,7 +101,6 @@ input {
 
 .prompt-area{
     width: 50%;
-    height: 300px;
     margin: 30px auto ;
     padding: 15px;
     border: 1px solid;
