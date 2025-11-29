@@ -5,7 +5,7 @@
 - フォームに自社のサービスの特徴・ブランド・ターゲットを入力すると、プロンプトが出力される
   
 ## ③アプリのデプロイURL
--
+- https://blancnoirmasayuki-cloud.github.io/memo_251128/
 
 ## ④アプリのログイン用IDまたはPassword（ある場合）
 -　なし
