@@ -1,4 +1,4 @@
-// Save クリックイベント
+// プロンプト生成をクリックする
 $("#makeprompt").on("click", function () {
   const name = $(".servicename").val();
   const what = $(".servicewhat").val();
@@ -115,12 +115,19 @@ for (let i = 0; i < localStorage.length; i++) {
     const pain = dataObject.targetpain;
 }
 
-// clear クリックイベント
+// プロンプトのみリセットをクリックする
 $("#clearprompt").on("click", function () {
   localStorage.clear();
   $("#list").empty();
 });
 
+// プロンプトをコピーをクリックする
+$("#copyprompt").on("click", function() {
+  const prompttext = $("#list").text(); 
+  navigator.clipboard.writeText(prompttext)
+});
+
+// 全てリセットをクリックする
 $("#clearall").on("click", function () {
   localStorage.clear();
   $("#list").empty();

@@ -9,7 +9,6 @@
 
 <body>
   <h1>マーケティングプロンプトメーカー</h1>
-    <!-- ユーザーがプロンプトの元となる項目を入力 -->
     <div id="input-area">
       <div class="service">
         <p class="about-service">サービスについて</p>
@@ -45,17 +44,18 @@
     <!-- 入力されたプロンプトの出力ボタン -->
     <div class="button-area">
       <button id="makeprompt">プロンプト生成</button>
-      <button id="clearprompt">プロンプトだけをリセット</button>
+      <button id="clearprompt">プロンプトのみリセット</button>
+       <button id="copyprompt">プロンプトをコピー</button>
       <button id="clearall">全てリセット</button>
-      
     </div>
 
-  <!-- プロンプト出力結果 -->
-  <ul id="list">
-    <!-- ここに追加データが挿入される -->
-  </ul>
+  <!-- プロンプト結果 -->
+  <div class="prompt-area">
+    <p>ここにプロンプトが出力されます📝</p>
+    <ul id="list"></ul>
+  </div>
 
-  <!-- 以下にjsを書いていきます -->
+<!-- JQueryのライブラリ呼び出し＆ローカルファイル -->
   <script src="js/jquery-2.1.3.min.js"></script>
   <script src="js/script.js"></script>
 </body>
